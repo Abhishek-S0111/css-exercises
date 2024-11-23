@@ -9,9 +9,23 @@ body {
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.one{
+  display: flex;
+  gap: 16px;
+}
+
+.two{
+  display: flex;
+  gap: 16px;
 }
 
 .profile-image {
@@ -20,6 +34,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin: auto auto;
 }
 
 .logo {
@@ -30,11 +45,13 @@ body {
 }
 
 button {
+  height: 50%;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: auto auto;
 }
 
 a {
@@ -44,5 +61,7 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  gap: 16px;
 }
